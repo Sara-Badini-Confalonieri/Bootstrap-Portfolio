@@ -17,24 +17,27 @@ h5,
 h6 {
   font-weight: 200;
   letter-spacing: 1px;
-  
+
 }
 
 p {
+  font-size: 18px;
+  line-height: 1.5;
 
 }
 
 
 /* Navigation bar styles ============= */
-#mainNav h1 {
-  color: aliceblue;
+#mainNav h3 {
+  color: rgb(36, 36, 36);
   background-color: rgb(97, 175, 175);
   padding: 10px 20px;
   margin: 0px;
+  font-weight: bolder;
 }
 
 .nav-item a {
-  color: rgb(82, 247, 253);
+  color: rgb(97, 175, 175);
   transition: all 0.35s;
 }
 
@@ -43,32 +46,47 @@ p {
   color: rgb(255, 255, 255);
 }
 
+/* Jumbotron styles ============= */
+
 .main-header {
-  height: 200px;
-  padding-bottom: 10px;
+  padding-top: 50px;
   color: white;
   background: url('../images/background_header.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
 }
 
-header.masthead .header-content {
-  margin-bottom: 10px;
-  text-align: center;
+.header-content h1 {
+  font-weight: bold;
+  font-size: 50px;
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
-
+.name-grid {
+  align-items: center;
+  margin-bottom: 0px !important;
+  padding-left: 0px;
 }
 
-header.masthead .device-container {
-  width: 20px;
-  margin-right: auto;
-  margin-left: auto;
+.photo-name {
+  background-color: rgb(97, 175, 175);
+  padding: 5px;
 }
 
-header.masthead .device-container .screen img {
-  border-radius: 1px;
+.photo-title {
+  background-color: rgba(97, 175, 175, 0.185);
+  padding: 5px;
+}
+
+
+
+/* Cards styles ============= */
+
+.card-img-top {
+  height: 200px;
+}
+
+.work-cards {
+  margin-top: 50px;
 }
