@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background-color: rgb(210, 224, 220); 
+  background-color: rgb(210, 224, 220);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -20,6 +20,7 @@ h6 {
   letter-spacing: 1px;
 
 }
+
 
 p {
   font-size: 18px;
@@ -87,10 +88,11 @@ a {
 
 
 
-/* Cards styles ============= */
+/* Work Cards styles ============= */
 
-.work-cards {
+.work-container {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .card-title {
@@ -98,13 +100,45 @@ a {
 }
 
 
-.card:hover {
+.work-card:hover {
   opacity: 0.7;
   box-shadow: 5px 5px 20px #000000;
-  }
+}
+
+#about-me {
+  background-color: rgb(97, 175, 175);
+
+}
 
 
 
 
+/* Footer styles ============= */
 
+footer {
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
 
+.fa-linkedin {
+  color: rgb(97, 175, 175);
+  background: white;
+}
+
+.fa-github {
+  color:rgb(97, 175, 175);
+  background: white;
+}
+
+.fa:hover {
+  opacity: 0.8;
+  box-shadow: 3px 3px 10px #000000;
+}
