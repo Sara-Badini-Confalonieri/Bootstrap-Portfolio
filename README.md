@@ -19,7 +19,7 @@ You can try out the website if you click this link:
 https://sara-badini-confalonieri.github.io/Bootstrap-Portfolio/
 
 
-![alt text](/image/screenshot.png)
+![alt text](/images/screenshot.PNG)
 
 
 ## Credits
