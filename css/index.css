@@ -6,6 +6,7 @@ body {
 }
 
 body {
+  background-color: rgb(210, 224, 220); 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -24,6 +25,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
 
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -51,11 +56,12 @@ p {
 .main-header {
   padding-top: 50px;
   color: white;
-  background: url('../images/background_header.jpg');
+  background: url('../images/bg-image2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header-content h1 {
@@ -75,7 +81,7 @@ p {
 }
 
 .photo-title {
-  background-color: rgba(97, 175, 175, 0.185);
+  background-color: rgba(255, 255, 255, 0.226);
   padding: 5px;
 }
 
@@ -83,10 +89,22 @@ p {
 
 /* Cards styles ============= */
 
-.card-img-top {
-  height: 200px;
-}
-
 .work-cards {
   margin-top: 50px;
 }
+
+.card-title {
+  color: rgb(97, 175, 175);
+}
+
+
+.card:hover {
+  opacity: 0.7;
+  box-shadow: 5px 5px 20px #000000;
+  }
+
+
+
+
+
+
